@@ -9,7 +9,6 @@ btn.addEventListener("click", function () {
     fetch('https://animechan.vercel.app/api/random')
         .catch(error => console.error("On create anime error", error))
         .then(response => response.json())
-        // .then(quote => console.log(quote))
         .then(response => {
             const anime = response.anime;
             console.log("anime", anime);
@@ -23,8 +22,6 @@ btn.addEventListener("click", function () {
         });
     
 });
-
-
 
 tbtn.addEventListener("click", tweetQuote);
 
