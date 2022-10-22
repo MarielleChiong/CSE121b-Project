@@ -1,0 +1,18 @@
+Random Anime Quote Generator
+Marielle Honey Chiong
+
+API source: https://animechan.vercel.app/
+
+=> Create a button to generate a random quote
+=> Display the Anime source
+=> Display the Anime character who said the quote
+=> Display the quote
+
+Try it:
+fetch('https://animechan.vercel.app/api/random')
+    .then(response => response.json())
+    .then(quote => console.log(quote))
+
+Extra effort:
+=> Button to save or delete the randomly generated quote
+=> Create a favorite list
