@@ -1,0 +1,25 @@
+@media only screen and (max-width: 600px) {
+    body {
+        padding: 5px;
+        min-height: 100vh;
+    }
+    h1 {
+        font-size: 1.5em;
+    } 
+    p.desc {
+        font-size: 1em;
+    }
+    
+    div p, footer p  {
+        font-size: .8em;
+    }
+    
+    p span{
+        font-size: .79em;
+    }
+
+    #quote-box {
+        min-height: 25vh;
+    }
+
+}

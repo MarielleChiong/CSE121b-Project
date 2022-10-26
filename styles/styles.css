@@ -53,6 +53,12 @@ main .desc {
     margin-bottom: 20px;
 }
 
+#quote-box:hover {
+    box-shadow: 1px 1px 0px 5px var(--accent-2);
+    border-radius: 20px;
+    transition: .5s;
+}
+
 p span {
     font-weight: 580;
 }
@@ -65,7 +71,8 @@ button {
 }
 
 button:hover {
-    box-shadow: 1px 1px 1px 1px var(--shadow);
+    box-shadow: 2px 2px 1px 1px var(--accent-1);
+    border-radius: 20px;
     transition: .5s;
 }
 
