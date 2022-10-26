@@ -18,8 +18,13 @@
         font-size: .79em;
     }
 
+    main {
+        padding: 20px;
+    }
+
     #quote-box {
         min-height: 25vh;
+        padding: 10px;
     }
 
 }
