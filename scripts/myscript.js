@@ -6,7 +6,7 @@ let tbtn = document.querySelector("#tweet-button");
 
 
 btn.addEventListener("click", function () {
-    fetch('https://animechan.vercel.app/api/random')
+    fetch('https://api.animechan.io/v1/quotes/random')
         .catch(error => console.error("On create anime error", error))
         .then(response => response.json())
         .then(response => {
